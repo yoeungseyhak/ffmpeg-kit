@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.source_files        = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
 
-  s.default_subspec     = 'https'
  #   s.default_subspec     = 'https'
  # FFmpegKit has been officially retired.Place iOS dependent libraries locally to solve compilation problems
   s.default_subspec = 'ffmpeg_kit_ios_local'
