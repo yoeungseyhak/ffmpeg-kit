@@ -4,10 +4,15 @@
 FFmpegKit has been officially retired. There will be no further `ffmpeg-kit` releases.
 *** 
 This repository is created to resolve build failures by hosting dependencies locally. It currently supports iOS adaptations for the ffmpeg-kit-ios-https module in versions 5.1.0 and 6.0.3.
+
 当前仓库是为了解决编译失败问题，把依赖库放在本地，目前适配了iOS的ffmpeg-kit-ios-https模块的5.1.0版本和6.0.3版本
+
 Usage for iOS:
+
 iOS使用：
+
 之前的使用代码：
+
 Previous dependency declaration (Flutter):
 ```flutter
 ffmpeg_kit_flutter: 5.1.0
@@ -16,7 +21,9 @@ ffmpeg_kit_flutter: 6.0.3
 ```
 
 New declaration using local Git reference:
+
 新的使用代码：
+
 ```flutter
 ffmpeg_kit_flutter:
   git:
