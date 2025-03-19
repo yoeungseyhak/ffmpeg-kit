@@ -3,13 +3,13 @@
 ## Notice
 FFmpegKit has been officially retired. There will be no further `ffmpeg-kit` releases.
 *** 
-This repository is created to resolve build failures by hosting dependencies locally. It currently supports iOS adaptations for the ffmpeg-kit-ios-https module in versions 5.1.0 and 6.0.3.
+This repository is created to resolve build failures by hosting dependencies locally. It currently supports iOS adaptations for the ffmpeg-kit-ios-https xcframework files and Android ffmpeg-kit-https aar files(5.1.0 and 6.0.3).
 
-当前仓库是为了解决编译失败问题，把依赖库放在本地，目前适配了iOS的ffmpeg-kit-ios-https模块的5.1.0版本和6.0.3版本
+当前仓库是为了解决编译失败问题，把依赖库放在本地，目前适配了iOS的ffmpeg-kit-ios-https xcframework文件和Android的ffmpeg-kit-https aar文件(5.1.0版本和6.0.3版本)
 
-Usage for iOS:
+Usage:
 
-iOS使用：
+使用：
 
 之前的使用代码：
 
